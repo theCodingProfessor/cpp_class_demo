@@ -6,5 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(git_demo
-        Bird.cpp
-        Bird.h main.cpp)
+        main.cpp main.cpp Bird.cpp Bird.h)

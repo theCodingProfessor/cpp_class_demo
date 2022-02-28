@@ -1,14 +1,15 @@
 // Clinton Garwood
 // Created by ncc306 on 2/28/22.
-// main driver, main.cpp
+// main driver is main.cpp
 
-#include <iostream>
 #include <string>
-#include "Bird.h"
+#include <iostream>
 using namespace std;
+#include "Bird.h"
 
-int main(){
-    cout << "Tweet tweet" << endl;
+int main (){
+    cout << "Tweet Tweet, chirp" << endl;
 
     return 0;
 }
+
